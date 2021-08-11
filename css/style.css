@@ -1,0 +1,294 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+
+width: 90%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+padding: 33px 0px;
+}
+header .logo{
+    
+width: 15%;
+}
+header .logo img{
+    
+width: 100%;
+}
+header nav{width: 50%;}
+header nav ul{
+    
+list-style: none;
+    
+display: flex;
+    
+justify-content: space-between;
+    
+align-items: center;
+}
+header nav ul li{
+   
+    text-transform: uppercase;
+}
+header nav ul li a{
+    
+text-decoration: none;
+    
+font-size: 20px;
+    
+color: #626262;
+    
+font-family: 'Playfair Display', serif;
+}
+/* header part end here */
+.banner{
+
+width: 90%;
+
+margin: auto;
+
+padding-bottom: 100px;
+}
+.banner img{
+    
+width: 100%;
+}
+/* banner part start here */
+/* photodairy section start here */
+.photodairy-section{
+
+width: 80%;
+
+margin: auto;
+
+padding: 0px 0px 100px 0px;
+}
+.photodairy-section .photodiary{color: #626262;font-size: 14px text-trans;text-transform: uppercase;font-size: 14px;font-family:  font-family: 'Playfair Display', serif;font-family: 'Playfair Display', serif;}
+.photodairy-section .title{
+    
+font-size: 30px;
+    
+color: #626262;
+    
+text-transform: none;
+    
+margin-top: 30px;
+    
+font-family: 'Playfair Display', serif;
+}
+.photodairy-section p{
+    
+font-size: 19px;
+    
+color: #626262;
+    
+margin: 20px 0px;
+}
+.photodairy-section .Leave_comment{
+    
+margin-top: 72px;
+    
+color: #626262;
+    
+text-transform: uppercase;
+    
+font-size: 14px;
+    
+font-family: 'Playfair Display', serif;
+}
+.photodairy-section .box-container{
+
+width: 100%;
+
+margin: auto;
+
+display: flex;
+
+flex-wrap: wrap;
+
+justify-content: space-between;
+
+align-items: center;
+}
+.box-container .box{
+
+width: 47%;
+
+margin-top: 130px;
+}
+.box-container .box .box-image{
+    
+width: 100%;
+    
+display: block;
+}
+.box-container .box .box-image img{
+    
+}
+.box-container .box .Leave_comment {
+    
+}
+.box-container .box .Leave_comment {
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 50px;
+    color: #626262;
+}
+.box-container .box .title{
+    
+font-size: 30px;
+    
+color: #626262;
+}
+.box-container .box p {
+    
+color: #626262;
+    
+text-align: justify;
+}
+
+/* photodairy section end here */
+/* signup section start here */
+.signup-section{
+
+width: 100%;
+
+padding: 100px 0px;
+
+background: #f0f0f0;
+}
+.signup-section .signup-container{
+    
+}
+.signup-section .signup-box{
+
+width: 366px;
+
+margin: auto;
+
+text-align: center;
+
+position: relative;
+}
+.signup-section .signup-box h2{
+
+font-size: 30px;
+
+color: #333333;
+
+font-family: 'Ubuntu';
+
+font-weight: 300;
+}
+.signup-section .signup{width: 100%;background: none;border: none;border-bottom: 1px solid #616161;margin-top: 86px;font-size: 19px;text-transform: none;padding-bottom: 3px;outline: none;}
+.signup-section i{
+
+position: absolute;
+
+bottom: 6px;
+
+right: 3px;
+
+transform: rotate(55deg);
+
+font-size: 19px;
+}
+.load-more{
+    text-align: center;
+    padding-top: 148px;
+}
+.load-more button{
+
+padding: 20px 41px;
+
+font-size: 20px;
+
+text-transform: capitalize;
+
+font-family: 'Playfair Display';
+
+background: transparent;
+
+border: none;
+
+border: 1px solid #626262;
+}
+
+/* signup section end here */
+
+
+/* footer section start here  */
+.footer-section{
+    
+width: 100%;
+    
+background: #f0f0f0;
+    
+padding: 45px 0px;
+}
+.footer-container{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+align-items: center;
+
+justify-content: space-between;
+
+font-family: 'Playfair Display';
+}
+.footer-container .terms-condision{
+    
+width: 25%;
+    
+display: flex;
+    
+align-items: center;
+    
+text-align: left;
+    
+justify-content: space-between;
+}
+.footer-container li{
+
+list-style: none;
+}
+.footer-container li a{
+
+text-decoration: none;
+
+color: #626262;
+
+font-size: 19px;
+}
+.footer-container .fooetr-icon{
+
+width: 15%;
+
+display: flex;
+
+align-items: center;
+
+justify-content: space-around;
+}
+.footer-container .fooetr-icon i{
+
+}
+
+
+
+
+
+/* footer section end here  */
